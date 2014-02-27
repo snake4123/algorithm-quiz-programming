@@ -20,9 +20,10 @@ public class no2_a {
 
 			return rtn;
 		}
-		public void peek() {
+		public int peek() {
 			int rtn;
 			rtn = stack.get(0);
+			return rtn;
 		}
 	}
 
