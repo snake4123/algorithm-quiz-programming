@@ -20,11 +20,17 @@ public class no5 {
 		for(;;){
 			str = br.readLine();
 			num[i] = Integer.parseInt(str);
-			System.out.println(num[i]);
 			if(num[i]<0) break;
 			
 			i++;
 			
+		}
+		System.out.println("ソート前");
+		for(l=0;l<i;l++){
+			System.out.print(num[l]);
+			if(l==i-1){
+			}
+			else System.out.print(",");
 		}
 		for(j=0;j<i;j++){
 			for(k=j+1;k<i;k++){
@@ -39,14 +45,14 @@ public class no5 {
 				m=j;
 				n = m;
 				flag2 = 1;
-				System.out.println("b");
 			}
 			if(flag1==1){
 				n++;
 				flag1 = 0;
-				System.out.println("c");
 			}
 		}
+		System.out.println();
+		System.out.println("ソート後");
 		for(l=0;l<i;l++){
 			System.out.print(num[l]);
 			if(l==i-1){
