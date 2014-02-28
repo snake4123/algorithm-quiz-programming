@@ -14,7 +14,7 @@ public class no5 {
 		int flag1 = 0;
 		int flag2 = 0;
 		String str;
-		System.out.println("入力(終了する場合は-1を入力)：");
+		System.out.print("入力(終了する場合は-1を入力)：");
 		BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
 		
 		for(;;){

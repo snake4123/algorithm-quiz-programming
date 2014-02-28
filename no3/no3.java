@@ -25,9 +25,9 @@ public class no3 {
 		//括弧の数はnを超えず，配列
 		for(int i=0;i<n;i++){
 			for(int j=0;j<n;j++){
-				if(n-j-i<0) 
-				left[i][j] = n-ｊ-i;
-				right[i][j] = n-ｊ-i;
+				//if(n-j-i<0) 
+				//left[i][j] = n-ｊ-i;
+				//right[i][j] = n-ｊ-i;
 				
 			}
 			
